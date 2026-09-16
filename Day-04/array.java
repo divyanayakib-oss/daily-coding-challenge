@@ -1,6 +1,6 @@
-class Array {
+class array {
     public TreeNode array(int[] nums) {
-        return convert(nums, 0, nums.length - 1);        
+        return Convert(nums, 0, nums.length - 1);        
     }
 
     private TreeNode convert(int[] nums, int left, int right) {

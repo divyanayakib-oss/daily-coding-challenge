@@ -1,4 +1,3 @@
-package Day-08;
 
 public class addstring {
     public String addStrings(String num1, String num2) {

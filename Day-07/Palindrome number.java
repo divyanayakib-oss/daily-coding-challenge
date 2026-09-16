@@ -1,17 +1,15 @@
-class Solution {
-    public boolean isPalindrome(int x) {
-        if (x < 0) {
-            return false;
+import java.util.Arrays;
+    public class unique{
+        public static void Main(String[]args){
+            int s=0;
+            for (int f=1; f<a.length;f++){
+                if(a[s]!=a[f]){
+                    s++;
+                     a[s]=a[f];
+
+                }
+            
         }
 
-        int reverse = 0;
-        int xcopy = x;
-
-        while (x > 0) {
-            reverse = (reverse * 10) + (x % 10);
-            x /= 10;
         }
-
-        return reverse == xcopy;        
     }
-}
